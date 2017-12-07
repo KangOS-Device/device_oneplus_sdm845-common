@@ -152,7 +152,9 @@ PRODUCT_COPY_FILES += \
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
-    libhwbinder
+    libhwbinder \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
 
 # HALS
 SRC_AUDIO_HAL_DIR := hardware/qcom-caf/sdm845/audio
