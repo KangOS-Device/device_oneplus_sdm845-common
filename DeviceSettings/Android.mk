@@ -28,9 +28,13 @@ LOCAL_PACKAGE_NAME := DeviceSettings
 LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
+    airbnb-lottie \
     androidx.core_core \
     androidx.preference_preference \
     SettingsLib
+
+LOCAL_JAVA_LIBRARIES := \
+    airbnb-lottie
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
