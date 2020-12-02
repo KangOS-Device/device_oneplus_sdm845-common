@@ -150,6 +150,10 @@
                 android:exported="false">
         </service>
 
+        <!-- HBM Mode service -->
+        <service android:name="com.colt.device.DeviceSettings.HBMModeService"
+                android:exported="false" />
+
         <!-- Search Provider -->
         <provider
             android:name=".ConfigPanelSearchIndexablesProvider"
