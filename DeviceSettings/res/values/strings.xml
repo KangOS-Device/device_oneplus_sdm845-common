@@ -87,4 +87,10 @@
     <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>
     <string name="clear_speaker_description">Run this feature once or twice if you find that your speaker is lightly blocked by dust. Set media volume to maximum.\n\nIf the speaker is blocked heavily, run this feature 2-5 times while shaking your device with the speaker facing downwards.</string>
 
+    <!-- Slider toasts -->
+    <string name="slider_toast_normal">Calls and notifications will ring</string>
+    <string name="slider_toast_vibrate">Calls and notifications will vibrate</string>
+    <string name="slider_toast_dnd">DND - No interruptions</string>
+    <string name="slider_toast_priority">DND - Priority only</string>
+    <string name="slider_toast_silent">Calls and notifications will be muted</string>
 </resources>
