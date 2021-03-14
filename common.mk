@@ -136,6 +136,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     OnePlusDoze
 
+# KangOS specific properties
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.kangos.cpu=SDM845
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
