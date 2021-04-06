@@ -1,24 +1,22 @@
 [
   {
-    "repository"  : "device_oneplus_common",
+    "repository"  : "android_device_oneplus_common",
     "target_path" : "device/oneplus/common",
+    "revision"    : "eleven"
   },
   {
     "repository"  : "kernel_oneplus_sdm845",
     "target_path" : "kernel/oneplus/sdm845",
+    "revision"    : "eleven"
   },
   {
-    "repository"  : "vendor_oneplus",
+    "repository"  : "vendor_oneplus_sdm845-common",
     "target_path" : "vendor/oneplus",
+    "revision"    : "eleven"
   },
   {
     "repository"  : "vendor_addons_oneplus_apps",
     "target_path" : "vendor/addons/oneplus/apps",
-  },
-  {
-    "repository"  : "kdrag0n/proton-clang",
-    "branch"      : "master",
-    "remote"      : "github",
-    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton"
+    "revision"    : "eleven"
   }
 ]
