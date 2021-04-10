@@ -152,8 +152,6 @@ PRODUCT_COPY_FILES += \
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport \
-    libhidltransport.vendor \
-    libhwbinder.vendor \
     libhwbinder
 
 # HALS
